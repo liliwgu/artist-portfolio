@@ -17,7 +17,7 @@
   <!-- Start - Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <!-- End - Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -27,7 +27,8 @@
         extend:
                 {
                   fontFamily: {
-                    'nanumcgothiccoding': ['Nanum Gothic Coding', 'monospace']
+                    'nanumcgothiccoding': ['Nanum Gothic Coding', 'monospace'],
+                    'robotomono': ['Roboto Mono', 'monospace']
                   },
                 },
       },
@@ -94,11 +95,37 @@
   <!-- Content -->
   <div class="container mx-auto">
     <div class="grid grid-cols-2 gap-16">
-      <section class="col-span-2 md:col-span-1">
-        <h1 class="text-4xl pt-10 pb-8 text-4xl font-light"><b>about</b></h1>
-        <div>
-          <p class="mb-4">
-            TODO
+      <section class="col-span-2 md:col-span-1 ">
+        <h1 class="text-4xl pt-10 pb-8 font-light"><b>judith yeo (she/her)</b></h1>
+        <div class="leading-[2] font-robotomono font-light">
+          <p class="mb-6">
+            I’m a former software engineer turned
+            ceramic artist. I was born in Singapore
+            but immigrated to Vancouver, BC at the
+            young age of 3. Years later, I moved to
+            Seattle after completing my
+            university degree.
+          </p>
+          <p class="mb-6">
+            Growing up, I did not explore my
+            creative side as I believed that I was
+            not artistically inclined. Instead I threw
+            myself into studies and work. However,
+            in 2023 I took my first wheel-throwing class and felt
+            drawn to the hands on nature of the
+            craft and the physicality of finished
+            work - a concept that was foreign to me
+            after years of software engineering.
+          </p>
+          <p class="mb-6">
+            Since then, I’ve dedicated myself to
+            this craft. Currently I am a career resident at 
+            <a class="font-bold" href="https://www.seansclaycorner.com/residency" target="_blank">
+            the Clay Corner</a> and 
+            my work can be found at
+            <a class="font-bold" href="https://niche-ballard.com/" target="_blank">Niche</a>, 
+            an art gallery in Ballard.
+          </p>
         </div>
       </section>
       <div class="col-span-2 md:col-span-1 flex relative">
