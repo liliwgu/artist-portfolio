@@ -1052,7 +1052,7 @@ video {
 
 .text-neutral-700 {
   --tw-text-opacity: 1;
-  color: rgb(64 64 64 / var(--tw-text-opacity));
+  color: rgb(242 240 239 / var(--tw-text-opacity));
 }
 
 .text-white {
